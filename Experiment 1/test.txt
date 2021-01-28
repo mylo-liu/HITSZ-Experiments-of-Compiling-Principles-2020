@@ -1,0 +1,11 @@
+int var1 = 24;
+int var2 = 38;
+int n = 55;
+int i;
+for(i=0; i<n; i++){
+    var2 += 9;
+    if (var1 > var2)
+    {
+        break;
+    }
+}
